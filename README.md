@@ -31,11 +31,8 @@ $ cd green-screen-demo
 
 Run Jupyter Notebook:
 
-- ```
-$ jupyter notebook
-```
+- `$ jupyter notebook`
 - From the file navigator, click on `bg-screen-demo.ipynb` to open the notebook
-
 
 ## License
 
