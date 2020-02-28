@@ -11,7 +11,7 @@ purposes.
 
 The project requires Jupyter Notebooks, Python3.
 
-- [Installing Jupyter using Anaconda and conda](https://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda)
+- [Installing Jupyter using Anaconda and conda](https://www.anaconda.com/distribution/)
 - Make sure you have the `numpy` and `opencv` libraries installed
 
 
