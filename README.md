@@ -1,6 +1,6 @@
-# Green screen demo activity
+# Image manipulation
 
-Chroma keying demo activity using OpenCV.
+Chroma keying demo activity using Python, OpenCV & Java.
 
 ## Getting Started
 
@@ -9,36 +9,30 @@ purposes.
 
 ### Prerequisites
 
-The project requires Jupyter Notebooks, Python3.
+The project requires Jupyter Notebooks, Python3, Java8.
 
-- [Installing Jupyter using Anaconda and conda](https://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda)
-- Make sure you have the `numpy` and `opencv` libraries installed
+- [Installing Jupyter using Anaconda and conda](https://www.anaconda.com/distribution/)
+- Make sure you have the `numpy` and `opencv` libraries installed using `pip` or `conda` package managers
 
 
 ### Installing
 
-Clone the repository and enter the directory:
+- Clone the repository `$ git clone https://github.com/BoiseState-AdaptLab/green-screen-demo.git`
 
-```
-$ git clone https://github.com/BoiseState-AdaptLab/green-screen-demo.git
-```
+- Enter the repo-directory: `$ cd green-screen-demo/`
 
-Enter the directory:
+- **To run the python and opencv example:** 
+  - `cd opencv`
+  - Run Jupyter Notebook: `$ jupyter notebook`
+  - From the file navigator, click on `bg-screen-demo.ipynb` to open the notebook
 
-```
-$ cd green-screen-demo
-```
-
-Run Jupyter Notebook:
-
-- ```
-$ jupyter notebook
-```
-- From the file navigator, click on `bg-screen-demo.ipynb` to open the notebook
+- **To run the java example:** 
+  - `cd java`
+  - `make`
+  - `java PixelManipDemo`
 
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 
